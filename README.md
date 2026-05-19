@@ -22,12 +22,24 @@ spreadsheet_formula_compiler/
 │   │       ├── Token.java
 │   │       ├── Parser.java
 │   │       └── ASTNode.java
-│   ├── Compiler_Coversheet.docx
-│   ├── Report.pdf
-│   ├── formulas.txt #the one you run the project with
-│   ├── formulas.docx #only for the form since it only accepts word / pdf format
-│   ├── invalid test case output.png
-│   └── valid test case output.png
+│   ├── docs/
+│   │   ├── Compiler_Coversheet.docx
+│   │   └── Report.pdf
+│   ├── test_inputs/
+│   │   ├── formulas.txt
+│   │   └── formulas.docx
+│   └── test_outputs/
+│       ├── invalid/
+│       │   ├── invalid_test_cases_output_1.png
+│       │   └── invalid_test_cases_output_2.png
+│       └── valid/
+│           ├── valid_test_cases_output_1.png
+│           ├── valid_test_cases_output_2.png
+│           ├── valid_test_cases_output_3.png
+│           ├── valid_test_cases_output_4.png
+│           ├── valid_test_cases_output_5.png
+│           ├── valid_test_cases_output_6.png
+│           └── valid_test_cases_output_6_JSON.png
 └── README.md
 ```
 
