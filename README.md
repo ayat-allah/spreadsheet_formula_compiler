@@ -24,10 +24,13 @@ spreadsheet_formula_compiler/
 │   │       └── ASTNode.java
 │   ├── Compiler_Coversheet.docx
 │   ├── Report.pdf
-│   ├── formulas.txt
+│   ├── formulas.txt #the one you run the project with
+│   ├── formulas.docx #only for the form since it only accepts word / pdf format
 │   ├── invalid test case output.png
 │   └── valid test case output.png
 └── README.md
 ```
 
-# Step by step walkthrough of project:
+## Step by step walkthrough of project:
+
+The Main class orchestrates the full pipeline: it reads input (hardcoded test cases or from a file via --file), invokes the Lexer and Parser in sequence, and formats output as both an AST tree and JSON object. A hasErrors() helper method checks and reports errors from both stages with clear diagnostic labels.
