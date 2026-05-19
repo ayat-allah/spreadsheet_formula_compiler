@@ -11,6 +11,8 @@ java -cp .\src compiler.Main --file .\formulas.txt
 ```
 
 ## Project structure:
+
+```bash
 spreadsheet_formula_compiler/
 ├── SpreadsheetCompiler/
 │   ├── src/
@@ -26,5 +28,6 @@ spreadsheet_formula_compiler/
 │   ├── invalid test case output.png
 │   └── valid test case output.png
 └── README.md
+```
 
 # Step by step walkthrough of project:
