@@ -33,4 +33,4 @@ spreadsheet_formula_compiler/
 
 ## Step by step walkthrough of project:
 
-The Main class orchestrates the full pipeline: it reads input (hardcoded test cases or from a file via --file), invokes the Lexer and Parser in sequence, and formats output as both an AST tree and JSON object. A hasErrors() helper method checks and reports errors from both stages with clear diagnostic labels.
+The Main class orchestrates the full pipeline: it reads input (hardcoded test cases or from a file via --file), invokes the Lexer which gets tokenized before sending it to Parser which then validates the format of the input and the ASTNode takes the parsed input, defines it's type and outputs it as both an AST tree and JSON object. A hasErrors() helper method checks and reports errors from both the Lexer and Parser stages with clear diagnostic labels.
