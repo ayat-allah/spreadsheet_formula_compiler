@@ -1,13 +1,13 @@
 # spreadsheet_formula_compiler
 
-#How to run:
+# How to run:
 git clone https://github.com/ayat-allah/spreadsheet_formula_compiler.git
 cd spreadsheet_formula_compiler
 cd SpreadsheetCompiler
 javac .\src\compiler\Main.java
 java -cp .\src compiler.Main --file .\formulas.txt
 
-#Project structure:
+# Project structure:
 spreadsheet_formula_compiler/
 ├── SpreadsheetCompiler/
 │   └── .idea/
@@ -24,4 +24,4 @@ spreadsheet_formula_compiler/
 |   |___ valid test case output.png
 └── README.md
 
-#Step by step walkthrough of project:
+# Step by step walkthrough of project:
