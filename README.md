@@ -1,4 +1,4 @@
-# spreadsheet_formula_compiler
+# spreadsheet formula language project summary
 
 ## How to run:
 
