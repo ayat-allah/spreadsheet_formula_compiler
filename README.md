@@ -6,7 +6,7 @@
 git clone https://github.com/ayat-allah/spreadsheet_formula_compiler.git
 cd spreadsheet_formula_compiler
 cd SpreadsheetCompiler
-javac .\src\compiler\Main.java
+javac .\src\compiler\*.java
 java -cp .\src compiler.Main --file .\formulas.txt
 ```
 
